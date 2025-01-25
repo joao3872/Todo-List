@@ -70,6 +70,7 @@ main {
 }
 .create-todo .title, .todo-list .title {
   margin-bottom: 15px;
+  text-align: center;
 }
 .create-todo .todoForm, .todo-list .todoForm {
   width: 100%;
