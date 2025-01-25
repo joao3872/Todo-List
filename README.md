@@ -2,7 +2,7 @@
 
 * Basicamente, essa Todo List foi desenvolvida com base em um vídeo de um canal, onde o desenvolvedor ensina como fazer uma todo list, entendi como funciona e adaptei para a minha necessidade.
 
-* Acesso ao canal: <a href="" target="_blank" rel="noopener noreferrer">Tyler Potts</a>
+* Acesso ao canal: <a href="https://youtube.com/@tylerpotts?si=ZZDtmUoRKiJeZdZc" target="_blank" rel="noopener noreferrer">Tyler Potts</a>
 
 ### Sobre:
 
@@ -32,4 +32,4 @@
 
 <br>
 
-* <a href="" target="_blank" rel="noopener noreferrer">Acessar a Página</a>
+* <a href="https://joao3872.github.io/Todo-List/" target="_blank" rel="noopener noreferrer">Acessar a Página</a>
