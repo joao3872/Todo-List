@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+// Variáveis Sass.
+
+$backgroundMain: #8288C3;
+$backgroundHeaderFooter: #333;
+$backgroundContainer: #FFF3D1;
+$colorEdit: #54656f;
+$black: #000;
+$green-whatsapp: #35d366;
+$grey: grey;
+$orange: #FE983B;
+$red: red;
+$white: #fff;
+
+$blackTransparent: rgba(0, 0, 0, .3);
+$backgroundInputs: rgba(255, 255, 255, .3);
+$colorText: rgba(255, 255, 255, .6);
+
+
+
+body {
+    background: $backgroundMain;
+}
+
+header {
+    background: $backgroundHeaderFooter;
+    color: $white;
+    width: 100%;
+    padding: 20px 35px;
+    
+    .textLogo {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+
+footer {
+    @extend header;
+    padding: 25px 70px;
+
+    .textFooter {
+        @extend .textLogo;
+        font-size: 20px;
+    }
+
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (width < 600px) {
+    header {
+        .textLogo {
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        .textFooter {
+            font-size: 17px;
+        }
+    }
+}
+
+
+@media (601px <= width <= 900px) {
+    header {
+        .textLogo {
+            font-size: 22.5px;
+        }
+    }
+
+    footer {
+        .textFooter {
+            font-size: 18.5px;
+        }
+    }
+}

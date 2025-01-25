@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header>
+        <span class="textLogo">
+            TODO LIST
+        </span>
+    </header>
+
+
+    <main>
+
+        <section class="container create-todo">
+
+            <h1 class="title">Adicione uma tarefa para começar:</h1>
+
+            <form id="todoForm" class="todoForm">
+
+                <input 
+                  type="text" 
+                  name="content" 
+                  id="content" 
+                  class="inputContent" 
+                  placeholder="Digite uma tarefa..." 
+                />
+
+                <input type="submit" value="Adicionar" id="btnAddTodo" class="btnAdd" />
+
+            </form>
+
+            <p id="message" class="message"></p>
+
+            <p id="messageInput" class="messageInput"></p>
+
+        </section>
+
+
+        <section class="todo-list">
+
+            <section class="list" id="todo-list">
+
+                <div class="todo-item">
+                    
+                    <div class="todo-content">
+
+                        <!-- Input Edit -->
+
+                    </div>
+
+                    <div class="actions">
+
+                        <!-- Buttons Edit and Delete -->
+
+                    </div>
+
+                </div>
+
+            </section>
+            
+
+            <p id="messageEdit" class="messageEdit"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <span class="textFooter">
+            Desenvolvido por João Matheus &copy; 2025
+        </span>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
