@@ -20,7 +20,7 @@
 
 ### Mobile:
 
-<img src="./images/" width="260px" height="500px" />
+<img src="./images/mobile.gif" width="260px" height="500px" />
 
 ### Tablet:
 
